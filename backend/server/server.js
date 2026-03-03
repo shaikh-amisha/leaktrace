@@ -9,7 +9,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 
-dotenv.config({path: '../.env'});
+dotenv.config();
 connectDB();
 
 const __filename = fileURLToPath(import.meta.url);
